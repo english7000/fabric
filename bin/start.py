@@ -3,6 +3,6 @@
 
 
 from core import main
-import threading
+
 
 main.run()
