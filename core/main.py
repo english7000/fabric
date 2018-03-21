@@ -27,9 +27,10 @@ def run():
 
     while True:
         res = ser.exec_command()
-        if res =='1':
+        print(res)
+        if res == 1:
             break
 
     semaphore.release()
+    return 0
 
-run()
